@@ -1,0 +1,29 @@
+<head>
+  <link rel="stylesheet"href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+<div class="container">
+    <h1 class="text-center">Wikipedia Viewer</h1>   
+    <div class="text-center"><a href = "https://en.wikipedia.org/wiki/Special:Random" target="_blank">Click here for a random page</a></div>
+    <br></br>
+    <div class="row">
+      <div class="col-xs-4"></div>
+      <div class="col-xs-4">
+        <input class="form-control" id="searchTerm"></input>
+      </div>
+      <div class="col-xs-4">  
+         <button id="search" type="button" class="btn btn-primary">Search</button>
+      </div>
+    </div>   
+  <ul id="output"></ul>
+</div>
+<script type="text/javascript" src="wikipedia-viewer.js"></script>
+</body>
